@@ -1,0 +1,31 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns":[ "Hi", "how are you?" , "How are you", "Is anyone there?", "Hello", "Good day" , "hello","hi","hey","sup","heyo","whatsup"],
+  "responses": ["Hello!","i am doing fine, and you?"  , "What Can I do For you?"]
+  },
+  {"tag": "goodbye", 
+  "patterns": ["Bye", "See you later", "Goodbye"],
+  "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+  },
+
+  {"tag": "name",
+  "patterns": ["What is your name?","who are you", "What are you known as?", "What can i call you?"],
+  "responses": ["My name is Jarvis" , "I am JARVIS your favorite personal voice assistant"]
+  }, 
+
+  {"tag": "work",
+  "patterns": ["What is your work?", "What do you do?"],
+  "responses": ["My work is to answer your questions"]
+  },  
+
+  {"tag": "thanks",
+  "patterns": ["Thanks", "Thank you", "That's helpful"],
+  "responses": ["Happy to help!","You're welcome!", "Any time!", "My pleasure"]
+  },
+  {"tag": "created",
+  "patterns": ["Who created you?", "Who made you?", "Who are your fathers?"],
+  "responses": ["Ryan And Krishnendu"]
+  }
+
+]
+}
