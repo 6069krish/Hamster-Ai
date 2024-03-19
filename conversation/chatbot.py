@@ -79,7 +79,7 @@ print("GO! BOT IS RUNNING MOTHERFUCKER")
 while True:
 
     with sr.Microphone() as source:
-    #     print("Listening...")
+        print("Listening...")
         audio = r.listen(source)
 
         user_input = r.recognize_google(audio)

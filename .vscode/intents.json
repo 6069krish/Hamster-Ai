@@ -10,7 +10,7 @@
 
   {"tag": "name",
   "patterns": ["What is your name?","who are you", "What are you known as?", "What can i call you?"],
-  "responses": ["My name is Jarvis" , "I am JARVIS your favorite personal voice assistant"]
+  "responses": ["My name is Hamster" , "I am Hamster AI your favorite personal voice assistant"]
   }, 
 
   {"tag": "work",
@@ -23,9 +23,34 @@
   "responses": ["Happy to help!","You're welcome!", "Any time!", "My pleasure"]
   },
   {"tag": "created",
-  "patterns": ["Who created you?", "Who made you?", "Who are your fathers?"],
-  "responses": ["Ryan And Krishnendu"]
-  }
+  "patterns": ["Who created you?", "Who made you?", "Who is your father?"],
+  "responses": ["Krishnendu"]
+  },
 
+{
+  "tag": "weather",
+  "patterns": ["What's the weather like?", "Is it raining?", "What's the temperature?"],
+  "responses": ["The weather is sunny/cloudy/rainy.", "You can check the weather forecast online."]
+},
+{
+  "tag": "jokes",
+  "patterns": ["Tell me a joke", "Do you know any jokes?", "Give me something funny"],
+  "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I told my wife she was drawing her eyebrows too high. She looked surprised!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+},
+{
+  "tag": "music",
+  "patterns": ["Play some music", "Can you recommend some songs?", "I want to listen to music"],
+  "responses": ["I'm sorry, I can't play music for you.", "You can use a music streaming service to listen to music.", "I'm not capable of playing music, but I can assist you with other tasks."]
+},
+{
+  "tag": "hobbies",
+  "patterns": ["What are your hobbies?", "Do you have any hobbies?", "What do you like to do for fun?"],
+  "responses": ["I enjoy learning new things and assisting users.", "My main focus is on helping you.", "I'm dedicated to fulfilling your requests and providing useful information."]
+},
+{
+  "tag": "emotions",
+  "patterns": ["How are you feeling?", "Are you happy?", "Do you have emotions?"],
+  "responses": ["As an AI, I don't have emotions, but I'm here to assist you.", "I'm programmed to respond to your queries, regardless of emotions.", "Feel free to ask me anything you need help with."]
+}
 ]
 }
