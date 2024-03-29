@@ -1,4 +1,4 @@
-The Hamster AI is a chatbot designed to interact with users through text or voice input.
+This is a chatbot designed to interact with users through text or voice input.
 It uses a JSON file to store predefined questions and answers. Upon receiving a query, 
 the chatbot compares it with existing questions and suggests answers if there's a match.
 If the question is new, the chatbot prompts the user to provide an answer and stores it in the JSON file for future reference.
